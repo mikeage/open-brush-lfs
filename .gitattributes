@@ -9,7 +9,6 @@
 Packages/*.json text eol=lf
 UnityPackageManager/manifest.json text eol=lf
 ProjectSettings/ProjectVersion.txt text eol=lf
-
 # Resharper generates these with LF; keep them LF even on Windows
 *.DotSettings text eol=lf
 # protoc generates files with LF
@@ -19,7 +18,7 @@ Assets/Scripts/Protobuf/**/*.cs text eol=lf
 Assets/ThirdParty/Oculus/** -text
 # Keep the ffmpeg build script with Unix line endings.
 Support/ThirdParty/ffmpeg/BuildFfmpeg.sh text eol=lf
-*.psd filter=lfs diff=lfs merge=lfs -text
-*.exe filter=lfs diff=lfs merge=lfs -text
-*.dll filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
